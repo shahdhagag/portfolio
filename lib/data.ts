@@ -274,26 +274,42 @@ export const projects: Project[] = [
     featured: true,
   },
   {
-    title: "Instagram Viewer App",
-    slug: "instagram-viewer",
+    title: "Movie App – Movie Discovery & Tracking",
+    slug: "movie-app",
     description:
-      "Search and view public Instagram profiles using RapidAPI integration with a clean, intuitive interface.",
+      "A cross-platform mobile app built with Flutter that allows users to browse, search, and discover movies with Firebase Auth, Firestore, and Clean Architecture.",
     longDescription:
-      "A Flutter app that integrates with RapidAPI to fetch and display public Instagram profile data including posts, followers count, and bio information. Features a clean search interface and responsive profile display.",
+      "Movie App is a full-featured mobile application for movie enthusiasts, built using Flutter and following Clean Architecture principles for scalable, maintainable, and testable code. Users can sign up and log in securely using Firebase Authentication (Email/Password), browse trending and genre-specific movies (Action, Adventure, Animation, and more), search for titles, view detailed movie information, and manage personal watchlists and favorites — all persisted in real-time with Cloud Firestore. The app features a beautiful dark-themed UI with an onboarding flow, a featured movies carousel, genre-based browsing, and user profile management.",
     image: "/images/project-placeholder.png",
-    tags: ["Flutter", "Dart", "RapidAPI", "Dio"],
-    features: [
-      "Search public Instagram profiles",
-      "View profile details and bio",
-      "Display follower and following counts",
-      "Browse public posts grid",
-      "RapidAPI integration with Dio",
-      "Clean and intuitive UI",
+    coverImage: "/images/movie-cover.png",
+    tags: [
+      "Flutter",
+      "Dart",
+      "Firebase Auth",
+      "Cloud Firestore",
+      "BLoC",
+      "Clean Architecture",
+      "Dio",
+      "get_it",
+      "go_router",
     ],
-    github: "https://github.com/shahdhagag/instagram-viewer",
-    repoName: "instagram-viewer",
+    features: [
+      "Authentication — Sign up, log in, forgot password, and session management via Firebase Auth",
+      "Home Screen — Featured movies carousel with auto-play, genre-categorized movie sections",
+      "Search — Find movies by title with instant results",
+      "Movie Details — Detailed view with cover image, rating, year, genres, and summary",
+      "Watchlist & Favorites — Save movies to personal lists, persisted in Cloud Firestore",
+      "User Profile — View and edit profile, manage settings",
+      "Onboarding — Multi-step onboarding flow for first-time users",
+      "Responsive Design — Adaptive layout using flutter_screenutil",
+      "Clean Architecture with Presentation → Domain → Data layers",
+      "Dependency Injection with get_it + injectable",
+      "Functional error handling with dartz (Either pattern)",
+    ],
+    github: "https://github.com/shahdhagag/movie-app",
+    repoName: "movie-app",
     liveUrl: "",
-    featured: false,
+    featured: true,
   },
   {
     title: "FlashNews – News App",
@@ -331,28 +347,7 @@ export const projects: Project[] = [
     liveUrl: "",
     featured: true,
   },
-  {
-    title: "ToDayDo – To-Do App",
-    slug: "todaydo",
-    description:
-      "Task management app built with Provider for state management, featuring real-time UI updates and clean design.",
-    longDescription:
-      "A productivity-focused to-do application using Provider state management for reactive UI updates, task categorization, completion tracking, and a minimal, user-friendly interface designed for daily task management.",
-    image: "/images/project-placeholder.png",
-    tags: ["Flutter", "Dart", "Provider"],
-    features: [
-      "Create, edit, and delete tasks",
-      "Task categorization and organization",
-      "Real-time UI updates with Provider",
-      "Task completion tracking",
-      "Clean and minimal interface",
-      "Persistent local storage",
-    ],
-    github: "https://github.com/shahdhagag/todaydo",
-    repoName: "todaydo",
-    liveUrl: "",
-    featured: false,
-  },
+
 ];
 
 // ============================================================================
