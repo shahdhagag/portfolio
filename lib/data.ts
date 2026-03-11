@@ -176,6 +176,7 @@ export const projects: Project[] = [
       "Responsive UI with reusable widgets",
       "Clean and scalable architecture",
     ],
+    demoVideo: "https://drive.google.com/file/d/11VaRPoSHSJi2CINHWHMczSbBQqupSZhc/view?usp=sharing",
     screenshots: [
       "https://github.com/user-attachments/assets/173838e2-f9dd-4200-a2c5-9f5b8ff6ab35",
       "https://github.com/user-attachments/assets/be89e813-ee69-4785-9f99-9f97e114eaa0",
