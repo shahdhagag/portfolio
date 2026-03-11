@@ -176,7 +176,7 @@ export const projects: Project[] = [
       "Responsive UI with reusable widgets",
       "Clean and scalable architecture",
     ],
-    demoVideo: "https://drive.google.com/file/d/11VaRPoSHSJi2CINHWHMczSbBQqupSZhc/view?usp=sharing",
+    demoVideo: "https://drive.google.com/file/d/1QhvxbEIFdbF-e7Y9-Ztd_Zzav34mEKGv/view?usp=sharing",
     screenshots: [
       "https://github.com/user-attachments/assets/173838e2-f9dd-4200-a2c5-9f5b8ff6ab35",
       "https://github.com/user-attachments/assets/be89e813-ee69-4785-9f99-9f97e114eaa0",
@@ -217,6 +217,7 @@ export const projects: Project[] = [
       "Reusable and scalable widgets",
       "Pixel-perfect UI from Figma design",
     ],
+   demoVideo: "https://drive.google.com/file/d/1QhvxbEIFdbF-e7Y9-Ztd_Zzav34mEKGv/view?usp=sharing",
     screenshots: [
       "https://github.com/user-attachments/assets/c7b8a567-e85b-4acc-bf8a-078ffc953e14",
       "https://github.com/user-attachments/assets/93996a65-44a9-4989-a27f-dd04e10ca7a7",
