@@ -217,7 +217,6 @@ export const projects: Project[] = [
       "Reusable and scalable widgets",
       "Pixel-perfect UI from Figma design",
     ],
-   demoVideo: "https://drive.google.com/file/d/1QhvxbEIFdbF-e7Y9-Ztd_Zzav34mEKGv/view?usp=sharing",
     screenshots: [
       "https://github.com/user-attachments/assets/c7b8a567-e85b-4acc-bf8a-078ffc953e14",
       "https://github.com/user-attachments/assets/93996a65-44a9-4989-a27f-dd04e10ca7a7",
