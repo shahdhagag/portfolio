@@ -313,8 +313,29 @@ export const projects: Project[] = [
     
     github: "https://github.com/shahdhagag/movie-app",
     repoName: "movie-app",
-    screenshots: movieAppScreenshots,
-    demoVideo: "https://drive.google.com/file/d/1yVCqPI3b4lf6MdrfZtAK2vGY3k4uouX7/view?usp=sharing",
+    screenshots: [
+  // Home & Browse
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home1.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home2.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home3.png",
+
+  // Movie Details
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home_detailes3.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/homedetailes2.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/movie_Detailes1.png",
+
+  // Search & Browse
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/searchscreen.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/browsescreen.png",
+
+  // Profile & Authentication
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/profilescreen1.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/updateProfileScreen.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/register.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/login.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/restPassword.png",
+    ],
+        demoVideo: "https://drive.google.com/file/d/1yVCqPI3b4lf6MdrfZtAK2vGY3k4uouX7/view?usp=sharing",
     liveUrl: "",
     featured: true,
   },
