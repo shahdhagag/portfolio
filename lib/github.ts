@@ -25,7 +25,7 @@ function isImage(filename: string): boolean {
 export async function fetchRepoScreenshots(
   repoName: string
 ): Promise<string[]> {
-  const foldersToTry = ["assets", "screenshots", "images", "Screenshots", "Assets"];
+  const foldersToTry = ["assets/screenshots"];
   const images: string[] = [];
 
   for (const folder of foldersToTry) {
@@ -36,7 +36,7 @@ export async function fetchRepoScreenshots(
           headers: {
             Accept: "application/vnd.github.v3+json",
           },
-          next: { revalidate: 3600 }, // cache for 1 hour
+          next: { revalidate: 3600 },
         }
       );
 
@@ -47,15 +47,18 @@ export async function fetchRepoScreenshots(
       if (!Array.isArray(files)) continue;
 
       for (const file of files) {
-        if (file.type === "file" && isImage(file.name) && file.download_url) {
+        if (
+          file.type === "file" &&
+          isImage(file.name) &&
+          file.download_url &&
+          file.name.toLowerCase().includes("screen")
+        ) {
           images.push(file.download_url);
         }
       }
 
-      // If we found images in this folder, no need to check others
       if (images.length > 0) break;
     } catch {
-      // Silently continue to next folder
       continue;
     }
   }

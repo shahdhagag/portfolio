@@ -84,7 +84,6 @@ export interface Project {
   featured: boolean;
 }
 
-import { movieAppScreenshots } from "./movieAppScreenshots";
 
 export const projects: Project[] = [
   {
