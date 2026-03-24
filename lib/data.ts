@@ -84,6 +84,8 @@ export interface Project {
   featured: boolean;
 }
 
+import { movieAppScreenshots } from "./movieAppScreenshots";
+
 export const projects: Project[] = [
   {
     title: "Evently – Event Management",
@@ -310,6 +312,8 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/shahdhagag/movie-app",
     repoName: "movie-app",
+    screenshots: movieAppScreenshots,
+    demoVideo: "https://drive.google.com/file/d/1yVCqPI3b4lf6MdrfZtAK2vGY3k4uouX7/view?usp=sharing",
     liveUrl: "",
     featured: true,
   },
