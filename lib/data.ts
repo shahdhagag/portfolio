@@ -310,6 +310,7 @@ export const projects: Project[] = [
       "Dependency Injection with get_it + injectable",
       "Functional error handling with dartz (Either pattern)",
     ],
+    
     github: "https://github.com/shahdhagag/movie-app",
     repoName: "movie-app",
     screenshots: movieAppScreenshots,
