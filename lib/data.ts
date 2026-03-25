@@ -87,6 +87,58 @@ export interface Project {
 
 export const projects: Project[] = [
   {
+    title: "HealthBridge – Doctor Appointment App",
+    slug: "health-doctor-appointment-app",
+    description:
+      "A modern Flutter mobile application that connects patients with doctors, enabling seamless appointment booking, access to health information, and personalized healthcare management — all powered by Firebase.",
+    longDescription:
+      "The Health & Doctor Appointment App delivers a complete digital healthcare experience. Users can securely sign in, explore doctors, book appointments, manage their profiles, and access valuable health information — all within a modern, clean, and responsive Flutter application.",
+    image: "/images/project-placeholder.png",
+    coverImage: "/images/health-cover.png",
+    tags: [
+      "Flutter",
+      "Dart",
+      "Firebase Auth",
+      "Cloud Firestore",
+      "Firebase Storage",
+      "Google Sign-In",
+      "Facebook Auth",
+      "Material UI",
+      "Responsive Design",
+      "intl",
+      "google_fonts",
+    ],
+    features: [
+      "Authentication: Email & Password Sign Up / Sign In, Google Sign-In, Facebook Sign-In, Secure password reset",
+      "Onboarding: Multi-screen onboarding flow, clear feature introduction, user-friendly first-time experience",
+      "Home & Navigation: Personalized home, dynamic greeting, quick access to features, intuitive navigation",
+      "Doctor Search & Discovery: Search by name/specialty, detailed profiles, top-rated section, explore/filter",
+      "Appointment Management: Book, view, cancel, reschedule appointments, appointment history",
+      "User Profile & Settings: View/edit details, upload profile image, manage settings, secure password update",
+      "Health & Disease Info: Browse diseases, detailed info, symptoms, health insights",
+      "Notifications & Reminders: Appointment reminders, real-time updates, notification history",
+    ],
+    demoVideo: "https://drive.google.com/file/d/1amwO6yHzlRXWk_NE-rq8dKaO4ql6tulA/view?usp=sharing",
+    screenshots: [
+      "assets/screenshots/home_screen.png",
+      "assets/screenshots/homept2.png",
+      "assets/screenshots/searchScreen.png",
+      "assets/screenshots/doctor list.png",
+      "assets/screenshots/doctorProfile.png",
+      "assets/screenshots/bookAppointmet.png",
+      "assets/screenshots/myappintemets.png",
+      "assets/screenshots/notifictions.png",
+      "assets/screenshots/profile.png",
+      "assets/screenshots/settingScreen.png",
+      "assets/screenshots/disese.png",
+      "assets/screenshots/diseseDetailes.png",
+    ],
+    github: "https://github.com/shahdhagag/Health_Bridge",
+    repoName: "Health_Bridge",
+    liveUrl: "",
+    featured: true,
+  },
+  {
     title: "Evently – Event Management",
     slug: "evently",
     description:
