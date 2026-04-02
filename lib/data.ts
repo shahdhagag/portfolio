@@ -86,6 +86,87 @@ export interface Project {
 
 
 export const projects: Project[] = [
+
+  {
+    title: "FarmLink – Agricultural Marketplace",
+    slug: "farmlink",
+    description:
+      "A modern Flutter application connecting farmers directly with buyers, enabling seamless crop listing, ordering, and communication without intermediaries.",
+    longDescription:
+      "FarmLink (FarmLink) is a full-featured agricultural marketplace that bridges the gap between farmers and buyers. Farmers can list crops, manage orders, and communicate directly with buyers, while buyers can discover fresh produce, view detailed information, and place orders بسهولة. The app includes real-time chat, weather insights, GPS-based location services, and a modern responsive UI built with Flutter and Firebase.",
+    image: "/images/project-placeholder.png",
+    coverImage: "/images/FarmLink-cover.png",
+    tags: [
+      "Flutter",
+      "Dart",
+      "Firebase Auth",
+      "Cloud Firestore",
+      "Firebase Storage",
+      "Riverpod",
+      "GoRouter",
+      "OpenWeather API",
+      "Geolocator",
+      "Clean Architecture",
+    ],
+       features: [
+      // Farmer Features
+      "Farmer: Add, edit, and manage crops with images, descriptions, and certifications",
+      "Farmer: View and manage incoming orders in real-time",
+      "Farmer: Accept or respond to buyer requests",
+      "Farmer: Integrated weather dashboard (temperature, humidity, wind)",
+      "Farmer: Automatic GPS location detection for farm mapping",
+      "Farmer: Real-time chat with buyers",
+      "Farmer: Profile management and account control",
+
+      // Buyer Features
+      "Buyer: Search and filter crops by name, category, and location",
+      "Buyer: View detailed crop information and descriptions",
+      "Buyer: Place orders with custom quantity and notes",
+      "Buyer: View farm location directly on Google Maps",
+      "Buyer: Real-time chat with farmers",
+      "Buyer: Manage orders and track requests",
+      "Buyer: Profile management and settings",
+
+      // General Features
+      "Authentication: Secure login and signup for both farmers and buyers",
+      "Modern UI with smooth animations and responsive design",
+      "Clean Architecture for scalability and maintainability",
+      "Firebase backend with real-time database and storage",
+    ],
+    demoVideo:
+      "https://drive.google.com/file/d/14hNO3rjDGU7xC1DDiB5gmI3jOX9joaeg/view?usp=sharing",
+    screenshots: [
+      // Farmer Auth
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/welcome.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/login_farmar.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/signupFarmar.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/forgotPassword.png",
+
+      // Farmer Features
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/farmer_home_tab.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/farmer_add_crop1.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/farmer_add_crop2.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/farmer_orders_list.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/farmer_chat_list.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/farmer_weather_tab1.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/farmer_weather_tab2.png",
+
+      // Buyer
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/buyerlogin.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/buyer_signup.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/buyerHomeScreen.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/buyerCropDetails.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/buyerCROPdetailes2.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/buyerOrderScreen.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/buyerChatScreen.png",
+      "https://raw.githubusercontent.com/shahdhagag/FarmLink/main/assets/screenshots/buyerProfileScreen.png",
+    ],
+    github: "https://github.com/shahdhagag/FarmLink", 
+    repoName: "FarmLink",
+    liveUrl: "",
+    featured: true,
+  },
+
   {
     title: "HealthBridge – Doctor Appointment App",
     slug: "health-doctor-appointment-app",
