@@ -218,6 +218,68 @@ export const projects: Project[] = [
     liveUrl: "",
     featured: true,
   },
+    {
+    title: "Movie App – Movie Discovery & Tracking",
+    slug: "movie-app",
+    description:
+      "A cross-platform mobile app built with Flutter that allows users to browse, search, and discover movies with Firebase Auth, Firestore, and Clean Architecture.",
+    longDescription:
+      "Movie App is a full-featured mobile application for movie enthusiasts, built using Flutter and following Clean Architecture principles for scalable, maintainable, and testable code. Users can sign up and log in securely using Firebase Authentication (Email/Password), browse trending and genre-specific movies (Action, Adventure, Animation, and more), search for titles, view detailed movie information, and manage personal watchlists and favorites — all persisted in real-time with Cloud Firestore. The app features a beautiful dark-themed UI with an onboarding flow, a featured movies carousel, genre-based browsing, and user profile management.",
+    image: "/images/project-placeholder.png",
+    coverImage: "/images/movie-cover.png",
+    tags: [
+      "Flutter",
+      "Dart",
+      "Firebase Auth",
+      "Cloud Firestore",
+      "BLoC",
+      "Clean Architecture",
+      "Dio",
+      "get_it",
+      "go_router",
+    ],
+    features: [
+      "Authentication — Sign up, log in, forgot password, and session management via Firebase Auth",
+      "Home Screen — Featured movies carousel with auto-play, genre-categorized movie sections",
+      "Search — Find movies by title with instant results",
+      "Movie Details — Detailed view with cover image, rating, year, genres, and summary",
+      "Watchlist & Favorites — Save movies to personal lists, persisted in Cloud Firestore",
+      "User Profile — View and edit profile, manage settings",
+      "Onboarding — Multi-step onboarding flow for first-time users",
+      "Responsive Design — Adaptive layout using flutter_screenutil",
+      "Clean Architecture with Presentation → Domain → Data layers",
+      "Dependency Injection with get_it + injectable",
+      "Functional error handling with dartz (Either pattern)",
+    ],
+    
+    github: "https://github.com/shahdhagag/movie-app",
+    repoName: "movie-app",
+    screenshots: [
+  // Home & Browse
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home1.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home2.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home3.png",
+
+  // Movie Details
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home_detailes3.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/homedetailes2.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/movie_Detailes1.png",
+
+  // Search & Browse
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/searchscreen.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/browsescreen.png",
+
+  // Profile & Authentication
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/profilescreen1.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/updateProfileScreen.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/register.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/login.png",
+  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/restPassword.png",
+    ],
+        demoVideo: "https://drive.google.com/file/d/1yVCqPI3b4lf6MdrfZtAK2vGY3k4uouX7/view?usp=sharing",
+    liveUrl: "",
+    featured: true,
+  },
   {
     title: "Evently – Event Management",
     slug: "evently",
@@ -368,7 +430,45 @@ export const projects: Project[] = [
     liveUrl: "",
     featured: true,
   },
+ 
+
   {
+    title: "FlashNews – News App",
+    slug: "news-app",
+    description:
+      "A modern, high-performance Flutter news app delivering real-time headlines with offline-first caching, multi-language support, smart search, and Clean Architecture.",
+    longDescription:
+      "FlashNews is a modern, high-performance Flutter news application that delivers real-time headlines from around the world. Built with scalability, offline-first caching using Hive Database, and Clean Architecture principles, the app provides a seamless reading experience with multi-language support (Arabic & English), dynamic theming, skeleton loading shimmer UI, and WebView for full article browsing.",
+    image: "/images/project-placeholder.png",
+    coverImage: "/images/news-cover.png",
+    tags: ["Flutter", "Dart", "BLoC", "Dio", "Hive", "GoRouter", "easy_localization", "Clean Architecture"],
+    features: [
+      "Real-time breaking news powered by NewsAPI across 6 categories",
+      "Offline-first support using Hive Database with remote-first, local-fallback strategy",
+      "Smart debounced search — works online and offline",
+      "Arabic & English localization with automatic RTL/LTR layout",
+      "Light & Dark themes with custom splash screen",
+      "Skeleton loading shimmer UI with Skeletonizer",
+      "Pull-to-refresh for instant feed updates",
+      "WebView support for full article browsing",
+      "Dependency Injection with Injectable + GetIt",
+      "Responsive design with ScreenUtil",
+      "BLoC + Clean Architecture",
+    ],
+    screenshots: [
+      "https://github.com/user-attachments/assets/e72a2ef7-9c32-4287-9aac-bf200eb21066",
+      "https://github.com/user-attachments/assets/ae9a4564-f13c-442b-8529-5d9e83371f79",
+      "https://github.com/user-attachments/assets/62e540ab-f40f-4ea0-a219-8f08fb02514f",
+      "https://github.com/user-attachments/assets/aa066513-b0bc-412f-bf31-92a862255b63",
+      "https://github.com/user-attachments/assets/1a8c86cb-eb44-4587-a74e-e2c075246243",
+      "https://github.com/user-attachments/assets/ef767a09-33b1-4c7f-8518-e71ba772bbea",
+    ],
+    github: "https://github.com/shahdhagag/FlashNews",
+    repoName: "FlashNews",
+    liveUrl: "",
+    featured: true,
+  },
+   {
     title: "Islami App",
     slug: "islami-app",
     description:
@@ -405,104 +505,6 @@ export const projects: Project[] = [
     ],
     github: "https://github.com/shahdhagag/islami_app",
     repoName: "islami_app",
-    liveUrl: "",
-    featured: true,
-  },
-  {
-    title: "Movie App – Movie Discovery & Tracking",
-    slug: "movie-app",
-    description:
-      "A cross-platform mobile app built with Flutter that allows users to browse, search, and discover movies with Firebase Auth, Firestore, and Clean Architecture.",
-    longDescription:
-      "Movie App is a full-featured mobile application for movie enthusiasts, built using Flutter and following Clean Architecture principles for scalable, maintainable, and testable code. Users can sign up and log in securely using Firebase Authentication (Email/Password), browse trending and genre-specific movies (Action, Adventure, Animation, and more), search for titles, view detailed movie information, and manage personal watchlists and favorites — all persisted in real-time with Cloud Firestore. The app features a beautiful dark-themed UI with an onboarding flow, a featured movies carousel, genre-based browsing, and user profile management.",
-    image: "/images/project-placeholder.png",
-    coverImage: "/images/movie-cover.png",
-    tags: [
-      "Flutter",
-      "Dart",
-      "Firebase Auth",
-      "Cloud Firestore",
-      "BLoC",
-      "Clean Architecture",
-      "Dio",
-      "get_it",
-      "go_router",
-    ],
-    features: [
-      "Authentication — Sign up, log in, forgot password, and session management via Firebase Auth",
-      "Home Screen — Featured movies carousel with auto-play, genre-categorized movie sections",
-      "Search — Find movies by title with instant results",
-      "Movie Details — Detailed view with cover image, rating, year, genres, and summary",
-      "Watchlist & Favorites — Save movies to personal lists, persisted in Cloud Firestore",
-      "User Profile — View and edit profile, manage settings",
-      "Onboarding — Multi-step onboarding flow for first-time users",
-      "Responsive Design — Adaptive layout using flutter_screenutil",
-      "Clean Architecture with Presentation → Domain → Data layers",
-      "Dependency Injection with get_it + injectable",
-      "Functional error handling with dartz (Either pattern)",
-    ],
-    
-    github: "https://github.com/shahdhagag/movie-app",
-    repoName: "movie-app",
-    screenshots: [
-  // Home & Browse
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home1.png",
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home2.png",
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home3.png",
-
-  // Movie Details
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/home_detailes3.png",
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/homedetailes2.png",
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/movie_Detailes1.png",
-
-  // Search & Browse
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/searchscreen.png",
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/browsescreen.png",
-
-  // Profile & Authentication
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/profilescreen1.png",
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/updateProfileScreen.png",
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/register.png",
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/login.png",
-  "https://raw.githubusercontent.com/shahdhagag/movie-app/master/assets/screenshots/restPassword.png",
-    ],
-        demoVideo: "https://drive.google.com/file/d/1yVCqPI3b4lf6MdrfZtAK2vGY3k4uouX7/view?usp=sharing",
-    liveUrl: "",
-    featured: true,
-  },
-  {
-    title: "FlashNews – News App",
-    slug: "news-app",
-    description:
-      "A modern, high-performance Flutter news app delivering real-time headlines with offline-first caching, multi-language support, smart search, and Clean Architecture.",
-    longDescription:
-      "FlashNews is a modern, high-performance Flutter news application that delivers real-time headlines from around the world. Built with scalability, offline-first caching using Hive Database, and Clean Architecture principles, the app provides a seamless reading experience with multi-language support (Arabic & English), dynamic theming, skeleton loading shimmer UI, and WebView for full article browsing.",
-    image: "/images/project-placeholder.png",
-    coverImage: "/images/news-cover.png",
-    tags: ["Flutter", "Dart", "BLoC", "Dio", "Hive", "GoRouter", "easy_localization", "Clean Architecture"],
-    features: [
-      "Real-time breaking news powered by NewsAPI across 6 categories",
-      "Offline-first support using Hive Database with remote-first, local-fallback strategy",
-      "Smart debounced search — works online and offline",
-      "Arabic & English localization with automatic RTL/LTR layout",
-      "Light & Dark themes with custom splash screen",
-      "Skeleton loading shimmer UI with Skeletonizer",
-      "Pull-to-refresh for instant feed updates",
-      "WebView support for full article browsing",
-      "Dependency Injection with Injectable + GetIt",
-      "Responsive design with ScreenUtil",
-      "BLoC + Clean Architecture",
-    ],
-    screenshots: [
-      "https://github.com/user-attachments/assets/e72a2ef7-9c32-4287-9aac-bf200eb21066",
-      "https://github.com/user-attachments/assets/ae9a4564-f13c-442b-8529-5d9e83371f79",
-      "https://github.com/user-attachments/assets/62e540ab-f40f-4ea0-a219-8f08fb02514f",
-      "https://github.com/user-attachments/assets/aa066513-b0bc-412f-bf31-92a862255b63",
-      "https://github.com/user-attachments/assets/1a8c86cb-eb44-4587-a74e-e2c075246243",
-      "https://github.com/user-attachments/assets/ef767a09-33b1-4c7f-8518-e71ba772bbea",
-    ],
-    github: "https://github.com/shahdhagag/FlashNews",
-    repoName: "FlashNews",
     liveUrl: "",
     featured: true,
   },
